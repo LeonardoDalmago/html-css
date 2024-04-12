@@ -60,12 +60,27 @@ section{
     padding-left: 30px;
 }
 
+
+section#img01{
+    background-image:url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+}
+
+section p {
+    padding-bottom: 2em;
+}
 section.imagem{
     background-color: rgba(0, 0, 0, 0.411);
     color: white;
+    background-attachment: fixed;
 }
 section.imagem p{
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.582);
     width: 200px;
     font-family:var(--fonte1);
     font-size: 1.1em;
